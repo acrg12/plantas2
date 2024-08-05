@@ -37,7 +37,7 @@ const Login = () => {
     /*  console.log("LA CEDULA", cedula);
     console.log("LA CONTRASEÑA", pass); */
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/usuario",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/usuario",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -48,7 +48,7 @@ const Login = () => {
       }
     );
     const data = await request.json();
-    //console.log(data[0].usuario);
+    console.log(data[0].usuario);
     if (
       data[0].usuario === "USUARIO INVALIDO" ||
       data[0].usuario === "CONTRASE\u00D1A INVALIDA"

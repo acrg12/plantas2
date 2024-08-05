@@ -24,7 +24,7 @@ import "./assets/css2/main.css";
 
 import "./assets/css/nucleo-icons.css";
 import "./assets/css/nucleo-svg.css";
-import "https://kit.fontawesome.com/42d5adcbca.js";
+//import "https://kit.fontawesome.com/42d5adcbca.js";
 import "./assets/css/material-dashboard.css?v=3.1.0";
 
 

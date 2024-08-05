@@ -120,6 +120,7 @@ const Navbar = ({ abrir, setAbrir, pageTitle }) => {
                 onClick={CerraSesion}
               >
                 <i className="fa fa-sign-out fixed-plugin-button-nav cursor-pointer"></i>
+                
               </a>
             </div>
           </div>

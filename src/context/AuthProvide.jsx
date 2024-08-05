@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import { useState, useEffect, createContext } from "react";
 
@@ -20,7 +22,7 @@ export const AuthProvider = ({ children }) => {
     //console.log("EL USER", user);
     // validamos que los datos existan en el localstorage
     if (user === null) {
-      // console.log("aca entro");
+      //console.log("aca entro");
       return false;
     }
    //console.log(user);
@@ -31,11 +33,11 @@ export const AuthProvider = ({ children }) => {
     console.log("EL ID DEL USER", userObj.ter_num_id); */
 
     const id = userObj.ter_num_id;
-    //console.log("EL ID: ", id);
+    console.log("EL ID: ", id);
     // Comprobacion del token del localstorage vs el del Backend
     try {
       const request = await fetch(
-        "http://181.204.95.204:8080/datasnap/rest/TServerMethods/tercero/" + id,
+        "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/tercero/" + id,
         {
           method: "GET",
           headers: {
@@ -44,12 +46,12 @@ export const AuthProvider = ({ children }) => {
           },
         }
       );
-      //console.log("EL REQUEST", request);
+   console.log("EL REQUEST", request);
       if (request.status === 500) {
         return false;
       } else {
         const data = await request.json();
-       // console.log("LA DATA", data.tercero[0]);
+       console.log("LA DATA", data.tercero[0]);
         setAutenticado(data.tercero[0]);
       }
     } catch (error) {

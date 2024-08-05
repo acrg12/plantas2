@@ -96,7 +96,7 @@ const Color = () => {
 
   const ListarMaximo = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/4/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/4/1/1/1",
       {
         method: "GET",
       }
@@ -119,7 +119,7 @@ const Color = () => {
 
  const ListarMaximoSemana = async () => {
    const request = await fetch(
-     "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/5/1/1/1",
+     "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/5/1/1/1",
      {
        method: "GET",
      }
@@ -142,7 +142,7 @@ const Color = () => {
 
  const ListarMaximoMes = async () => {
    const request = await fetch(
-     "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/6/1/1/1",
+     "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/6/1/1/1",
      {
        method: "GET",
      }
@@ -165,7 +165,7 @@ const Color = () => {
 
   const ListarMinimo = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/1/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/1/1/1/1",
       {
         method: "GET",
       }
@@ -189,7 +189,7 @@ const Color = () => {
 
   const ListarMinimoSemana = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/2/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/2/1/1/1",
       {
         method: "GET",
       }
@@ -213,7 +213,7 @@ const Color = () => {
 
   const ListarMinimoMes = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/3/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/3/1/1/1",
       {
         method: "GET",
       }
@@ -236,7 +236,7 @@ const Color = () => {
 
   const ListarPromedio = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/7/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/7/1/1/1",
       {
         method: "GET",
       }
@@ -255,7 +255,7 @@ const Color = () => {
 
     const ListarPromedioSemana = async () => {
       const request = await fetch(
-        "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/8/1/1/1",
+        "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/8/1/1/1",
         {
           method: "GET",
         }
@@ -275,7 +275,7 @@ const Color = () => {
   
     const ListarPromedioMes = async () => {
       const request = await fetch(
-        "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/9/1/1/1",
+        "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/9/1/1/1",
         {
           method: "GET",
         }
@@ -293,7 +293,7 @@ const Color = () => {
 
   const ListarLecturas = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoLecturas/1/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoLecturas/1/1/1/1",
       {
         method: "GET",
       }
@@ -343,7 +343,7 @@ const Color = () => {
 
   const ListarSemana = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoLecturas/2/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoLecturas/2/1/1/1",
       {
         method: "GET",
       }
@@ -388,7 +388,7 @@ const Color = () => {
 
   const ListarMes = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicolecturas/3/1/1/1",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicolecturas/3/1/1/1",
       {
         method: "GET",
       }
@@ -431,7 +431,7 @@ const Color = () => {
   const [errorShown, setErrorShown] = useState(false);
   
   useEffect(() => {
-    const apiUrl = 'http://181.204.95.204:8080/datasnap/rest/TServerMethods/alarmaCaracteristica/25';
+    const apiUrl = 'https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/alarmaCaracteristica/25';
   
     const toastOptions = {
       position: "top-right",

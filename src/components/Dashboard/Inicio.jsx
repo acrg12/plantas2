@@ -95,7 +95,7 @@ const Inicio = () => {
 
   const ListarMaximo = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/4/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/4/44/23/3",
       {
         method: "GET",
       }
@@ -118,7 +118,7 @@ const [maximoSemana, SetMaximoSemana] = useState([]);
 
 const ListarMaximoSemana = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/5/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/5/44/23/3",
     {
       method: "GET",
     }
@@ -141,7 +141,7 @@ const [maximoMes, SetMaximoMes] = useState([]);
 
 const ListarMaximoMes = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/6/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/6/44/23/3",
     {
       method: "GET",
     }
@@ -165,7 +165,7 @@ useEffect(() => {
 
   const ListarMinimo = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/1/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/1/44/23/3",
       {
         method: "GET",
       }
@@ -189,7 +189,7 @@ const [minimoSemana, SetMinimoSemana] = useState([]);
 
 const ListarMinimoSemana = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/2/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/2/44/23/3",
     {
       method: "GET",
     }
@@ -213,7 +213,7 @@ const [minimoMes, SetMinimoMes] = useState([]);
 
 const ListarMinimoMes = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/3/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/3/44/23/3",
     {
       method: "GET",
     }
@@ -237,7 +237,7 @@ useEffect(() => {
 
   const ListarPromedio = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/7/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/7/44/23/3",
       {
         method: "GET",
       }
@@ -257,7 +257,7 @@ const [promedioSemana, SetPromedioSemana] = useState([]);
 
 const ListarPromedioSemana = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/8/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/8/44/23/3",
     {
       method: "GET",
     }
@@ -277,7 +277,7 @@ const [promedioMes, SetPromedioMes] = useState([]);
 
 const ListarPromedioMes = async () => {
   const request = await fetch(
-    "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoMinMax/9/44/23/3",
+    "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoMinMax/9/44/23/3",
     {
       method: "GET",
     }
@@ -295,7 +295,7 @@ useEffect(() => {
 
   const ListarLecturas = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoLecturas/1/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoLecturas/1/44/23/3",
       {
         method: "GET",
       }
@@ -345,7 +345,7 @@ useEffect(() => {
 
   const ListarSemana = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicoLecturas/2/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicoLecturas/2/44/23/3",
       {
         method: "GET",
       }
@@ -389,7 +389,7 @@ useEffect(() => {
 
   const ListarMes = async () => {
     const request = await fetch(
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/historicolecturas/3/44/23/3",
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/historicolecturas/3/44/23/3",
       {
         method: "GET",
       }
@@ -433,7 +433,7 @@ useEffect(() => {
 
   useEffect(() => {
     const apiUrl =
-      "http://181.204.95.204:8080/datasnap/rest/TServerMethods/alarmaCaracteristica/44";
+      "https://5d8d-181-204-95-202.ngrok-free.app/datasnap/rest/TServerMethods/alarmaCaracteristica/44";
 
     const toastOptions = {
       position: "top-right",
